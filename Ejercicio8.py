@@ -2,7 +2,6 @@
 def convertir_mayusculas(texto):
     resultado = ""
     for i in texto:
-        # Si el caracter está entre 'a' y 'z', restamos 32 a su valor ASCII para hacerlo mayúscula
         if 'a' <= i <= 'z':
             resultado += chr(ord(i) - 32)
         else:
@@ -12,7 +11,6 @@ def convertir_mayusculas(texto):
 def convertir_minusculas(texto):
     resultado = ""
     for i in texto:
-        # Si el caracter está entre 'A' y 'Z', sumamos 32 a su valor ASCII para hacerlo minúscula
         if 'A' <= i <= 'Z':
             resultado += chr(ord(i) + 32)
         else:

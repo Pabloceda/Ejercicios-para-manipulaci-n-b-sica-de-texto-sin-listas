@@ -4,7 +4,6 @@ cadena = input("Introduce una cadena: ")
 nueva_cadena = ""
 
 for i in cadena:
-    # Verificamos que sea una letra (isalpha) Y que no sea una vocal
     if i.isalpha() and i not in "aeiouAEIOU":
         nueva_cadena += i
 

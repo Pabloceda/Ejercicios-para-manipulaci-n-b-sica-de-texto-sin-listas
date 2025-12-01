@@ -5,8 +5,6 @@ nueva_cadena = ""
 for i in cadena:
     if cadena.count(i) > 1 and i not in nueva_cadena:
         nueva_cadena += i
-
-# Formateamos la salida para mostrarla como "a", "b"
 salida = " "
 for i in range(len(nueva_cadena)):
     salida += '"' + nueva_cadena[i] + '"'
